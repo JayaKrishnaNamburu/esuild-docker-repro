@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  esuild-repro:
+    image: node:16-alpine
+    container_name: esbuild-repro
+    command: npm run dev
+    working_dir: /home/node/
+    user: "node"
+    volumes:
+      - ./:/home/node/
+    ports:
+      - 3000:3000

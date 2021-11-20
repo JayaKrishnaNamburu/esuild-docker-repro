@@ -1,0 +1,20 @@
+{
+  "name": "esbuild-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "docker-dev": "npm install && node index.js"
+  },
+  "engines": {
+    "node": ">14.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.13.14",
+    "express": "^4.17.1"
+  }
+}
